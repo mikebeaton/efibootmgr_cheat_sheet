@@ -12,3 +12,10 @@
     - `efibootmgr -b 6 -B`
     - `efibootmgr -b 0006 -B`
     - `efibootmgr --bootnum 0006 --delete-bootnum`
+ - Set boot next:
+    - `efibootmgr -n 6`
+    - `efibootmgr -n 0006`
+    - `efibootmgr --bootnext 0006`
+ - Set boot order:
+    - `efibootmgr -o 5,3,2,0,1`
+    - `efibootmgr --bootorder 0005,0003,0002,0000,0001`
